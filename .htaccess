@@ -1,0 +1,21 @@
+# Use PHP5.4 as default
+#AddHandler application/x-httpd-php54 .php
+
+# For security reasons, Option followsymlinks cannot be overridden.
+# For security reasons, Option followsymlinks cannot be overridden.
+# For security reasons, Option followsymlinks cannot be overridden.
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+
+
+  
+
+#RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
+#RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+RewriteRule ^([^/.]+)/?$ /index.php?code=$1 [NC,QSA]
+RewriteRule ^([^/.]+)/([^/.]+)/?$ /index.php?code=$1&a=$2 [L,NC,QSA]

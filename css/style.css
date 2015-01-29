@@ -1,0 +1,858 @@
+* {
+	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	
+	box-sizing: border-box;
+	margin: 0;
+	/* background-color: black; */
+}
+
+html{
+	overflow-x: hidden;
+	min-width: 1080px;
+}
+
+body{
+	background-color: gray;
+	font-family: 'Roboto', sans-serif;
+	background: url(../images/LayoverGeniusBG_High_1920_Opacity.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	 border: 1px solid transparent;
+	
+	/* margin: 0; */
+}
+
+#social_menu{
+	position: absolute;
+	top:0;
+	right:0;
+	margin: 10px;
+	margin-right: 10px;
+}
+
+.fb-like{
+	display:inline-block;
+}
+
+#___plusone_0{
+	position:relative;
+	top: 4px;
+	left: -7px;
+}
+
+.twitter-share{
+	margin-left: 5px;
+	position: relative;
+	top: 4px;
+	display: inline-block;
+}
+
+#idea_button{
+	color: white;
+	display: inline-block;
+	background-color: #00a6ff;
+	height: 24px;
+	font-size: 10px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 15px;
+	cursor: pointer;
+	position: relative;
+	bottom: 2px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	margin-left: 3px;
+}
+
+#idea_button a:link{
+	color: white;
+	text-decoration: none;
+}
+
+#main_container{
+	width: 910px;
+	margin: auto;
+	/* margin-top: -150px; */
+	height: 100%;
+	position: relative;
+}
+
+	#top_logo{
+		color: white;
+		top:0;
+		margin: 0 auto;
+		width: 500px;
+		height: 140px;
+		/* position: absolute; */
+		/* left: 33%; */
+		text-align: center;
+		z-index: 20;	
+	}
+		
+	#top_logo_bg{
+		top:0;
+		background-color: grey;
+		opacity: 0.3;
+		width: 477px;
+		height: 120px;
+		position: absolute;
+		left: 23.5%;
+		-webkit-border-bottom-right-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	
+		margin: 0px auto;
+		z-index: -10;
+}
+		
+		#title{
+			font-family: Pacifico;
+			font-size: 45px;
+		}
+		
+		#subtitle{
+			font-family: roboto;
+			font-weight: 300;
+			letter-spacing: 1px;
+		}
+		
+	#tagline{
+		font-family: roboto;
+		font-weight: 300;
+		font-size: 28px;
+		position: relative;
+		margin: 31px 0;
+		color: white;
+		text-align: center;
+}
+	
+		#newcity{
+			font-weight: 700;
+			border-bottom: 1px dashed white;
+ 			display: inline;
+		}
+
+
+	#disclaimer{
+		font-family: Roboto;
+		width: 100%;
+		text-align: right;
+		font-size: 10px;
+		
+		display: none;
+		position: absolute;
+		bottom: 7px;
+		right: 106px;
+	
+		color: rgb(182, 182, 182);
+}
+
+	#footer{
+		position: relative;
+		color: white;
+		font-size: 12px;
+		border-top: 1px solid gray;
+		width: 1040px;
+		margin-left: -50px;
+		margin-top: 50px;
+		padding:  10px;
+}
+
+	#boarding_pass{
+		margin: 0px auto;
+		position: relative;
+		margin-top: 20px;
+		width: 910px;
+		height: 380px;
+		border: 0px dashed gray;
+	}
+
+		#stub{
+			width: 270px;
+			float: left;
+		}
+					
+			#clock img{
+				width: 25px;
+			}
+			
+			#plane img{
+				width: 30px;
+			}
+			
+			
+			#howlong_border{
+				margin-left: 35px;
+				width: 152px;
+			}
+			
+			#howlong_header{
+				margin-left: 35px;
+			}
+			
+			#airport_border{
+				margin-left: 35px;
+				width: 118px;
+			}
+			
+			#airport_container{
+				margin-left: 23px;
+			}
+			
+			#howlong_container{
+				margin-left: 23px;
+			}
+			
+			#airport_header{
+				margin-left: 35px;
+			}
+			
+			#plane{
+				display: inline-block;
+				position: relative;
+				left: -11px;
+			}
+			
+			#airport{
+				display: inline-block;
+				position: relative;	
+			}
+			
+				#aipt {
+					font-family: 'Roboto', sans-serif;
+					margin-left: 12px;
+					width: 75px;
+					border: 0;
+					font-weight: 400;
+				}
+				
+				
+				#airport_field_text{
+					position: absolute;
+					font-size: 11px;
+					font-family: roboto;
+					color: gray;
+					margin-top: 30px;
+					margin-left: 5px;
+					width: 200px;
+				}
+				
+				#h{
+					font-family: 'Roboto', sans-serif;
+					margin-left: 2px;
+					width: 50px;
+					border: 0;
+					font-weight: 400;
+					text-align:right;
+				}
+				
+				#m{
+					font-family: 'Roboto', sans-serif;
+					margin-left: -13px;
+					width: 50px;
+					border: 0;
+					font-weight: 400;
+					text-align:right;
+				}
+				
+				
+				.ui-widget{
+					display: inline-block;
+				}
+			
+			#clock{
+				display: inline-block;
+				position: relative;
+				left: -8px;
+			}
+			
+			#howlong{
+				display: inline-block;	
+			}
+		
+			#submit_button{
+				margin-top: 20px;
+				margin-left: 15px;
+				display: inline-block;
+				background-color: #FFD389;
+				font-size: 12px;
+				text-align: center;
+				vertical-align: middle;
+				width: 200px;
+				padding: 15px 15px;
+				cursor: pointer;
+				position: relative;
+				vertical-align: middle;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				font-weight: 700;	
+				-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+				box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+			}
+			
+			#submit_button:hover{
+				background-color:#E6BE7B;
+			}
+			
+			#submit_button:active{
+				background-color:#CCA96E;
+			}
+			
+			#share_button:hover{
+				background-color:#0074B2;
+			}
+			
+			#share_button:active{
+				background-color:#005887;
+			}
+			
+			#idea_button:hover{
+				background-color:#0074B2;
+			}
+			
+			#idea_button:active{
+				background-color:#005887;
+			}
+			
+			
+			#restart_button{
+				margin-top: 20px;
+				margin-left: 15px;
+				display: inline-block;
+				background-color: #00a6ff;
+				font-size: 12px;
+				text-align: center;
+				vertical-align: middle;
+				width: 200px;
+				padding: 15px 15px;
+				cursor: pointer;
+				position: relative;
+				vertical-align: middle;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				color: white;
+				font-weight: 700;	
+				-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+				box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+			}
+			
+			.stub_field{
+				font-size: 30px;
+				font-weight: 400;
+			}
+			
+			#howlong_text_h{
+				font-size: 20px;
+				position:  relative;
+				left: -5px;
+			}
+			
+			#howlong_text_m{
+				font-size: 20px;
+				position:  relative;
+				left: -5px;
+			}
+			
+			#stub_details{
+				font-weight: 700;
+				font-size: 12px;
+				margin-left: 15px;
+				margin-top: 5px;
+			}
+		
+			#stub_top{
+				width: 270px;
+				height: 54px;
+				font-family: Pacifico;
+				font-size: 33px;
+				background-color: #74d8c2;
+				padding: 0px 14px;
+				-webkit-border-top-left-radius: 10px;
+				-webkit-border-top-right-radius: 10px;
+				-moz-border-radius-topleft: 10px;
+				-moz-border-radius-topright: 10px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				top: 0px;
+				vertical-align: top;
+			}
+			
+			#stub_body{
+				background-color: #ffffff;
+				height: 326px;
+				width: 100%;
+				padding: 20px;
+				-webkit-border-bottom-right-radius: 10px;
+				-webkit-border-bottom-left-radius: 10px;
+				-moz-border-radius-bottomright: 10px;
+				-moz-border-radius-bottomleft: 10px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+				border-right: 1px dashed #979797;
+				-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+				box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+			}
+		
+		#ticket{
+			width: 640px;
+			float: left;
+		}
+		
+		#envelope{
+			position: absolute;
+			z-index: 10;
+			top: -8px;
+			left: 252px;	
+		}
+		
+		#envelope_bottom{
+			position: absolute;
+			z-index: -1;
+			top: -6px;
+			left: 173px;
+			height: 397px;
+			width: 614px;
+			background-color: grey;
+			-webkit-box-shadow: 6px 1px 12px 0px rgba(50, 50, 50, 0.75);
+			-moz-box-shadow:    6px 1px 12px 0px rgba(50, 50, 50, 0.75);
+			box-shadow:         6px 1px 12px 0px rgba(50, 50, 50, 0.75);
+		}
+		
+		#envelope img{
+			height: 400px;
+		}
+		
+		#frontpage_top{
+			width: 500px;
+			font-size: 25px;
+			margin-left: 50px;
+			margin-top: 30px;
+			font-weight: 700;
+			display: none;
+		}
+		
+		#frontpage_bottom{
+			width: 250px;
+			font-size: 18px;
+			margin-left: 50px;
+			margin-top: 20px;
+			font-weight: 300;
+			display: none;
+		}
+		
+		#magic_hat{
+			position: absolute;
+			bottom: 22px;
+			right: 88px;
+			display: none;
+		}
+		
+		#magic_hat img{
+			width: 212px;
+		}
+		
+		#ticket_left_side{
+			float: left;
+			
+		}
+			
+			#more_arrow_container{
+				position: absolute;
+				right: 0;
+				top: 150px;
+				padding: 5px;
+				background: #7ED321;
+				-moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.50);
+				box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.50);
+				cursor: pointer;
+				-webkit-border-top-left-radius: 5px;
+				-webkit-border-bottom-left-radius: 5px;
+				-moz-border-radius-topleft: 5px;
+				-moz-border-radius-bottomleft: 5px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+				
+			}
+		
+			#ticket_top{
+				font-family: Pacifico;
+				font-size: 33px;
+				background-color: #26A286;
+				width: 100%;
+				height: 54px;
+				padding: 10px 10px;
+				padding-left: 40px;
+				-webkit-border-top-left-radius: 10px;
+				-webkit-border-top-right-radius: 10px;
+				-moz-border-radius-topleft: 10px;
+				-moz-border-radius-topright: 10px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				position: relative;
+				padding-top: 0px;
+			}
+			
+			#x_button{
+				position: absolute;
+				right: 15px;
+				top: 5px;
+				cursor: pointer;
+				display: none;
+			}
+			
+			#x_button img{
+				width: 23px;
+				position: relative;
+				top: -10px;
+			}
+			
+			
+
+			
+			#ticket_body{
+				background-color: #ffffff;
+				height: 326px;
+				width: 100%;
+				-webkit-border-bottom-right-radius: 10px;
+				-webkit-border-bottom-left-radius: 10px;
+				-moz-border-radius-bottomright: 10px;
+				-moz-border-radius-bottomleft: 10px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+				-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+				box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.50);
+				padding: 10px;
+			}
+			
+				.field_header{
+					font-size: 12px;
+					font-weight: 700;
+					margin-bottom: 5px;
+					position: relative;
+					left: -10px;
+				}
+				
+				.ticket_field{
+					font-size: 24px;
+					font-weight: 300;
+				}
+				
+				.ticket_field a:link{
+					text-decoration: none;
+				}
+				
+				.ticket_field a:hover{
+					text-decoration: underline;
+				}
+				
+				.field_container{
+					position: relative;
+					left: -10px;
+					float: left;
+					padding: 10px;
+					margin-left: 12px;
+				}
+				
+				.unselected_row:hover{
+					color: #4a90e3;
+				}
+				
+				.unselected_row{
+					background-color: #f8f8f8;
+					color: #979797;
+				}
+				
+				.selected_row{
+					background-color: #979797;
+					color: black;
+				}
+				
+				.littletext{
+					font-size: 10px;
+					position: relative;
+					top: -2px;
+				}
+				
+				#activity_container{
+					margin-left: 30px;
+					margin-top: 5px;
+					width: 360px;
+					
+				}
+				
+					#activity{
+						font-size: 35px;
+						font-weight: 300;
+						white-space: nowrap;
+					}
+					
+					#description{
+						margin-top: 10px;
+						border-left: 2px solid lightgray;
+						padding-left: 10px;
+						font-size: 14px;
+						font-weight: 300;
+						width: 340px;
+					}
+					
+				#end_page{
+						display: none;
+						padding:25px;
+						padding-left:40px;
+				}
+				
+				#end_text{
+					font-weight: 700;	
+					font-size: 22px;
+				}	
+				#breeze{
+					position: relative;
+					top: 30px;
+					left: 155px;
+				
+				}
+				
+				#error_page{
+						display: none;		
+						margin-left: 70px;
+				
+						margin-top: -20px;
+}
+				
+				#error_img{
+					position: relative;
+				}
+				
+				#error_text{
+					font-size: 15px;
+					position: relative;
+					z-index: 20;
+				
+					margin-top: -82px;
+					width: 186px;
+					margin-left: 43px;
+				}	
+				
+				#error_text2{
+					font-size: 15px;
+					position: relative;
+					z-index: 20;
+					margin-top: -60px;
+					width: 186px;
+					margin-left: 272px;
+				}	
+				
+				#restart_button{
+					margin-top: 56px;
+					margin-left: 153px;
+				}
+				
+			#ticket_right_side{
+				float: left;
+				padding-left: 10px;
+				background-color: #EFECEC;
+				margin-top: 60px;
+				width: 195px;
+				position:  absolute;
+				right: 35px;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+			}
+			
+				#time_details_container{
+					margin-left: 25px;
+					border-left: 2px solid lightgray;
+					padding-left: 23px;
+					position: relative;
+					margin-top: 0px;
+				}
+				
+				#activity_details_container{
+					margin-top: 15px;
+					margin-left: 25px;
+					border-left: 2px solid lightgray;
+					padding-left: 23px;
+					position: relative;
+					margin-bottom: 20px;
+					
+				}
+				
+				
+				#directions_link{
+					margin-left: -10px;
+					font-size: 14px;
+				
+					margin-top: 0px;
+				}
+				
+				#travel_time{
+					margin-left: -10px;
+				}
+				
+				#activity_time{
+					margin-left: -10px;
+				}
+				
+				#total_time_container{
+					margin-left: 25px;
+					
+				
+					margin-top: 5px;
+					padding-bottom: 5px;
+				}
+				
+					#total_time{
+						font-size: 30px;
+						font-weight: 300;
+						position: relative;
+						left: -10px;
+					}
+					
+					.total_time_letter{
+						font-size: 24px;
+					}
+					
+					
+				#info_container{
+			
+					width: 380px;
+					margin-top: 10px;
+					padding-bottom: 10px;
+					-webkit-border-radius:10px;
+					-moz-border-radius: 10px;
+					border-radius: 10px;
+					margin-left: 30px;
+					position: absolute;
+					bottom: 23px;
+				}
+				
+					#operation_container{
+						position: relative;
+						left: -24px;
+					}
+					
+					#price_container{
+						
+						padding-right: 30px
+
+						
+					}
+					
+					
+						.field_border{
+							position: absolute;
+							bottom: 5px;
+							border: 2px solid lightgray;
+							height: 10px;
+							border-top: 0;
+							width: 100%;
+							padding-left: 10px;
+							left: 0px;
+						}
+						
+						.graytext{
+							color: lightgray;
+						}
+						
+					#ticket_bottomrow_container{
+						margin-left: 0px;
+						margin-top: 10px;
+						
+					}
+					
+						#visa_container{
+							padding-right: 30px;
+						}
+					
+						#social_container{
+							position: relative;
+							left: -24px;
+							padding-right: 20px;
+						}
+						
+					#bubble{
+						display: none;
+						position: absolute;
+						left: 813px;
+						top: -38px;
+						z-index: 20;
+					}
+					
+					#bubble img{
+						width: 140px;
+					}
+					
+						.social_icon img {
+							
+							width: 25px;
+							margin-right: 10px;
+							margin-bottom: -5px;
+						}
+						
+						#share_bubble{
+							display: none;
+							position: absolute;
+							bottom: 58px;
+							right: 27px;
+							font-size: 10px;
+							background-color: black;
+							color: white;
+							padding: 10px;
+							-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.50);
+							box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.50);
+							-webkit-border-radius: 5px;
+							-moz-border-radius: 5px;
+						}				
+						
+						#share_url_box{
+							font-size: 10px;
+						}
+						
+						textarea {
+						   font-size: 10pt;
+						   font-family: Arial;
+						} 
+						
+						.arrow-down {
+							display: none;
+							width: 0; 
+							height: 0; 
+							border-left: 20px solid transparent;
+							border-right: 20px solid transparent;
+							border-top: 20px solid #000;
+							position: absolute;
+							top: 97px;
+							left: 259px;
+							
+						}
+						
+						#share_button{
+							color: white;
+							display: inline-block;
+							background-color: #00a6ff;
+						
+							height: 24px;
+							font-size: 10px;
+							text-align: center;
+							vertical-align: middle;
+							
+							padding: 5px 15px;
+							cursor: pointer;
+							position: relative;
+							bottom: 2px;
+							
+							-webkit-border-radius: 1px;
+							-moz-border-radius: 1px;
+							border-radius: 1px;
+					
